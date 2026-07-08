@@ -1,0 +1,394 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.hero {
+    background: #3498db;
+    color: white;
+    text-align: center;
+    padding: 80px;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+.card {
+    background: white;
+    width: 220px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+}
+
+.card img {
+    width: 100%;
+}
+
+button {
+    background: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #2980b9;
+}
+
+form {
+    width: 300px;
+    margin: auto;
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 18px;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fc;
+}
+
+header {
+    background-color: #1e3a8a;
+    color: white;
+    padding: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.hero {
+    background: linear-gradient(to right, #2563eb, #60a5fa);
+    color: white;
+    text-align: center;
+    padding: 80px;
+}
+
+.card {
+    background: white;
+    width: 220px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px lightgray;
+}
+
+button {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1e40af;
+}
+
+h1, h2 {
+    color: #e60000;
+}
+footer {
+    background-color: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+.navigation-buttons {
+    text-align: center;
+    margin: 30px;
+}
+
+.navigation-buttons button {
+    margin: 10px;
+}
+.card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.card:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+h2 {
+    text-align: center;
+    color: #1e3a8a;
+    margin-top: 30px;
+}
+.cart-container {
+    width: 60%;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px lightgray;
+}
+
+.cart-item {
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+}
+
+.cart-item h3 {
+    color: #1e3a8a;
+}
+
+.cart-container button {
+    margin-top: 20px;
+}
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:60px;
+    background:linear-gradient(to right,#e3f2fd,#ffffff);
+}
+
+.hero-text{
+    width:50%;
+}
+
+.hero-text h1{
+    font-size:50px;
+    color:hsl(59, 98%, 49%);
+}
+
+.hero-text p{
+    font-size:20px;
+    margin:20px 0;
+}
+
+.hero-images{
+    width:300%;
+    display:flex;
+    justify-content:center;
+    gap:50px;
+}
+
+.hero-images img{
+    width:700px;
+    transition:0.3s;
+}
+
+.hero-images img:hover{
+    transform:scale(1.1);
+}
+
+.btn{
+    background:#004aad;
+    color:white;
+    padding:12px 25px;
+    text-decoration:none;
+    border-radius:5px;
+}
+.hero-text h1{
+    font-size:70px;
+    width:70;
+    color:hwb(192 2% 83% / 0.667);
+    animation: snakeMove 4s infinite ease-in-out;
+}
+
+@keyframes snakeMove{
+    0%{
+        transform: translateX(0) translateY(0);
+    }
+    25%{
+        transform: translateX(20px) translateY(-10px);
+    }
+    50%{
+        transform: translateX(40px) translateY(0);
+    }
+    75%{
+        transform: translateX(20px) translateY(10px);
+    }
+    100%{
+        transform: translateX(0) translateY(0);
+    }
+}
+.logo{
+    font-size: 42px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 2px;
+    text-shadow: 0 0 10px #00c3ff;
+    margin: 0;
+}
+.logo{
+    font-size:42px;
+    font-weight:bold;
+    color:white;
+    letter-spacing:3px;
+    text-shadow:0 0 15px #00c3ff;
+    animation: floatLogo 3s ease-in-out infinite;
+}
+
+@keyframes floatLogo{
+
+0%{
+transform:translateY(0);
+}
+
+50%{
+transform:translateY(-10px);
+}
+
+100%{
+transform:translateY(0);
+}
+
+}
+.hero-text p{
+    font-size:22px;
+    width:15;
+    color:lch(100% 0.01 296.81);
+    animation: snakeMove 4s infinite ease-in-out;
+}
+/* ===========================
+   SHOPPING CART DESIGN
+=========================== */
+
+#cartItems{
+    width:75%;
+    margin:30px auto;
+}
+
+.cart-item{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#ffffff;
+    margin-bottom:20px;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.15);
+    border-left:6px solid #004aad;
+    transition:0.3s;
+}
+
+.cart-item:hover{
+    transform:translateY(-5px);
+    box-shadow:0 8px 20px rgba(0,0,0,0.25);
+}
+
+.cart-item h3{
+    margin:0;
+    color:#004aad;
+    font-size:24px;
+}
+
+.cart-item p{
+    margin:0;
+    font-size:22px;
+    font-weight:bold;
+    color:#28a745;
+}
+
+h2{
+    text-align:center;
+    color:#004aad;
+    margin-top:30px;
+    font-size:36px;
+}
+
+#total{
+    width:75%;
+    margin:30px auto;
+    text-align:right;
+    font-size:30px;
+    color:#004aad;
+    font-weight:bold;
+}
+
+a button,
+button{
+    padding:12px 25px;
+    border:none;
+    border-radius:8px;
+    font-size:16px;
+    cursor:pointer;
+    transition:0.3s;
+    margin:10px;
+}
+
+a button{
+    background:#28a745;
+    color:white;
+}
+
+button{
+    background:hsl(251, 92%, 45%);
+    color:white;
+}
+
+a button:hover{
+    background:#218838;
+}
+
+button:hover{
+    background:hsl(50, 100%, 51%);
+    transform:scale(1.05);
+}
+
+footer{
+    margin-top:60px;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Checkout</title>
+    <link rel="stylesheet" href="Improved style.css">
+</head>
+<body>
+    <header>
+        <a href="cart.html">
+    <button><< Previous</button>
+</a>
+
+<a href="order.html">
+    <button>Next >></button>
+</a>
+    </header>
+
+<h1>Checkout</h1>
+<form onsubmit="placeOrder(event)">
+
+<label>Full Name</label>
+<input type="text" id="name" required>
+
+<label>Email</label>
+<input type="email" id="email" required>
+
+<label>Phone Number</label>
+<input type="tel" id="phone" required>
+
+<label>Delivery Address</label>
+<input type="text" id="address" required>
+
+<label>City</label>
+<input type="text" id="city" required>
+
+<label>Payment Method</label>
+
+<select id="payment" required>
+    
+    <option>Paypal</option>
+    <option>Credit Card</option>
+    <option>Mobile Money</option>
+</select>
+
+<button type="submit">Place Order</button>
+
+</form>
+
+
+<footer>
+    <p>&copy; 2026 ShopEase. All rights reserved.</p>
+     <a href="index.html">
+        <button>Home</a></button>
+    </a>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

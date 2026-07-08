@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ShopEase</title>
+    <link rel="stylesheet" href="Improved style.css">
+</head>
+<body>
+
+<header>
+    <h1 class="logo">ShopEase</h1>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="cart.html">Cart</a>
+        <a href="login.html">Login</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="registration.html">Sign Up</a>
+    </nav>
+    <style>
+        Body{
+         font-family: Arial;
+    margin: 0;
+    background: #f4f4f4;
+}
+
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 20px;
+}
+
+nav a {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: #3498db;
+    color: white;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+button {
+    background: #3498db;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}   
+    </style>
+</header>
+<section class="hero">
+
+    <div class="hero-text">
+        <h1>Tech You Love,<br>Shopping Made Easy.</h1>
+
+        <p>Find the latest smartphones, laptops, headphones and accessories all in one place.</p>
+
+        <a href="products.html" class="btn">Shop Now</a>
+    </div>
+
+    <div class="hero-images">
+        <img src="images\Best Luxury Gifts 2025_ Gift Ideas Worth the Splurge.jpg" alt="Accessories">
+    </div>
+
+</section>
+
+<section class="hero">
+    <h2>Welcome to ShopEase</h2>
+    <p>Your one-stop online store.</p>
+</section>
+
+<section class="products">
+    <div class="card">
+        <img src= "images\wirelessheadphones.jpg.jpg" alt="Wireless Headphone">
+        <h3>Wireless Headphone</h3>
+        <p>$50</p>
+        <button onclick="addToCart('Wireless Headphone', 50)"> Add to cart
+
+        </button>
+    </div>
+
+    <div class="card">
+        <img src="images\phonecases.jpg.jpg" alt="Phone Case">
+        <h3>Phone Case</h3>
+        <p>$10</p>
+        <button onclick="addToCart('Phone Case', 10)"> Add to cart
+
+        </button>
+    </div>
+
+    <div class="card">
+        <img src="images\iphonechargers.jpg.jpg" alt="Mobilephone Charger">
+        <h3>Mobilephone Charger</h3>
+        <p>$30</p>
+        <button onclick="addToCart('Mobilephone Charger', 30)"> Add to cart
+            
+        </button>
+    </div>
+</section>
+<footer>
+    <p>&copy; 2026 ShopEase. All rights reserved.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

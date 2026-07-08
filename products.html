@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Products - ShopEase</title>
+    <link rel="stylesheet" href="Improved style.css">
+</head>
+<body>
+
+<header>
+    <h1 class="logo">ShopEase</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="cart.html">Cart</a>
+        <a href="login.html">Login</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="registration.html">Sign Up</a>
+        <div class="navigation-buttons">
+    <a href="index.html">
+        <button><< Previous</button>
+    </a>
+
+    <a href="cart.html">
+        <button>Next >></button>
+    </a>
+</div>
+    </nav>
+</header>
+
+<h2 style="text-align:center;">Our Products</h2>
+
+<section class="products">
+
+    <div class="card">
+        <img src="images\laptops.jpg.jpg" alt="Laptop">
+        <h3>Laptop</h3>
+        <p>$500</p>
+        <button onclick="addToCart('Laptop', 500)"> Add to cart
+
+        </button>
+    </div>
+
+    <div class="card">
+        <img src="images\smartphone.jpg.jpg" alt="Smartphone">
+        <h3>Smartphone</h3>
+        <p>$300</p>
+        <button onclick="addToCart('Smartphone', 300)"> Add to cart
+
+        </button>
+    </div>
+
+    <div class="card">
+        <img src="images\headphones.jpg.jpg" alt="Headphone">
+        <h3>Headphone</h3>
+        <p>$70</p>
+        <button onclick="addToCart('Headphone', 70)"> Add to cart
+
+        </button>
+    </div>
+
+</section>
+<footer>
+    <p>&copy; 2026 ShopEase. All rights reserved.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
